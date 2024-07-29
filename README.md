@@ -1,6 +1,6 @@
 # Matlogica AADC C++ to Python Integration
 
-This repository showcases the Matlogica automated conversion of arbitrary C++ code to AADC (Automated Adjoint Differentiation Compiler) enabled C++ code. It further demonstrates how to expose AAD-enabled C++ code to Python using pybind11.
+This repository showcases an **example** of the Matlogica automated conversion of arbitrary C++ code to AADC (Automated Adjoint Differentiation Compiler) enabled C++ code. It further demonstrates how to expose AAD-enabled C++ code to Python using pybind11.
 
 ## Overview
 
