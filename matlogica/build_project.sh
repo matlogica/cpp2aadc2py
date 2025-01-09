@@ -16,7 +16,7 @@ source matlogica/.env
 if [ "$1" == "gcc" ]; then
   COMPILER=g++
 elif [ "$1" == "clang" ]; then
-  COMPILER=$LLVM_BIN/clang++
+  COMPILER=$LLVM_INSTALL/bin/clang++
 else
   echo "Unsupported compiler: $1" >&2
   exit 1
