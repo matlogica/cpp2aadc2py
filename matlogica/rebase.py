@@ -26,7 +26,7 @@ def find_fork_point(target):
 
 # Handle cherry-pick
 def cherry_pick(commit):
-    run_command(f"git cherry-pick {commit}")
+    run_command(f"git cherry-pick -X ignore-space-change -X renormalize {commit}")
 
 # Execute script-tagged commit
 def execute_command(command):
