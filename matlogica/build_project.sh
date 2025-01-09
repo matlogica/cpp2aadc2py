@@ -50,9 +50,9 @@ rm -rf ./*
 cmake -G Ninja .. \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=1 \
   -DCMAKE_CXX_COMPILER=$COMPILER \
-  -DCMAKE_BUILD_TYPE=$BUILD_TYPE
-  # -DAADC_DIR=$AADC_DIR \
-  # -DAADC_QL=$IS_ACTIVE
+  -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
+  -DAADC_DIR=$AADC_DIR \
+  -DAADC_QL=$IS_ACTIVE
 ninja
 
 $WORKDIR/matlogica/log.sh "Compiled project with $1 in $2 mode ($3): $4"
