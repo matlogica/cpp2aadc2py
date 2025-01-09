@@ -1,5 +1,5 @@
-#include <Curve.hpp>
-#include <math.h>
+#include "Curve.hpp"
+#include <cmath>
 
 namespace QL {
 
