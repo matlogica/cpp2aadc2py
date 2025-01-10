@@ -8,4 +8,4 @@ WORKDIR=$(pwd)
 #   convert line endings to LF
 #   add newline at the end if missing
 
-git ls-files --cached --modified --others --exclude-standard | xargs -d '\n' sed -i '1s/^\xEF\xBB\xBF//; s/\r$//; $a\'
+git ls-files --cached --modified --others --exclude-standard -- "$@" | xargs -d '\n' sed -i '1s/^\xEF\xBB\xBF//; s/\r$//; $a\'
