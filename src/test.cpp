@@ -24,10 +24,10 @@ int main() {
 
     using namespace QL;
 
-    std::shared_ptr<Curve> c(new FlatDiscountCurve(Real_Disambiguate(0.05)));
+    std::shared_ptr<Curve> c(new FlatDiscountCurve(0.05));
     MyMarket m(c);
 
-    CashFlow cf = {Real_Disambiguate(100.0), Real_Disambiguate(1.0)};
+    CashFlow cf = {100.0, 1.0};
 
     SimpleCashFlowPricer p;
 
