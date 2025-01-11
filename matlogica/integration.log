@@ -26,3 +26,4 @@
 [2025-01-11 20:07:46] Ran clang-tidy('matlogica-remove-redundant-real-final') on build_clang_active_debug: 0 file(s) modified
 [2025-01-11 20:07:47] Compiled project with clang in active mode (debug): clang-tidy active remove redundant real final
 [2025-01-11 20:07:48] Compiled project with gcc in active mode (debug): final build
+[2025-01-11 20:07:48] Compiled project with gcc in passive mode (debug): final build
