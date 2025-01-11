@@ -39,7 +39,7 @@ def execute_command(command):
 def apply(commits):
     for line in reversed(commits):
         commit = line[:8]
-        message = run_command(f"git log -1 --pretty=%B {commit}", check=False)
+        message = line[10:]
 
         if message.startswith("script:"):
             command = message.split(":")[1].strip()
