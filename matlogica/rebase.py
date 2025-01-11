@@ -33,7 +33,7 @@ def execute_command(command):
     print(f"Executing: {command}")
     run_command(command)
     run_command("git add .")
-    run_command(f"git commit -m 'script:{command}'")
+    run_command(f'git commit -m "script:{command}"')
 
 # Main rebase logic
 def apply(commits):
