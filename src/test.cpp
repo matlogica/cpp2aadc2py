@@ -27,7 +27,7 @@ int main() {
     std::shared_ptr<Curve> c(new FlatDiscountCurve(0.05));
     MyMarket m(c);
 
-    CashFlow cf = {100, 1};
+    CashFlow cf = {100.0, 1.0};
 
     SimpleCashFlowPricer p;
 
