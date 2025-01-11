@@ -8,3 +8,4 @@
 [2025-01-11 20:07:27] Compiled project with clang in passive mode (debug): clang-tidy int2double
 [2025-01-11 20:07:28] Ran clang-tidy('matlogica-replace-double-type-by-real') on build_clang_passive_debug: 0 file(s) modified
 [2025-01-11 20:07:29] Compiled project with clang in passive mode (debug): clang-tidy double2real (post int2double)
+[2025-01-11 20:07:30] Ran clang-tidy('matlogica-native-fix-boost-math-dist') on build_clang_passive_debug: 0 file(s) modified
