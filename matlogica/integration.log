@@ -3,3 +3,4 @@
 [2025-01-11 20:07:23] Compiled project with clang in passive mode (debug): build original with AADC config
 [2025-01-11 20:07:24] Compiled project with clang in passive mode (debug): build with AADC includes
 [2025-01-11 20:07:25] Ran clang-tidy('matlogica-replace-double-type-by-real') on build_clang_passive_debug: 5 file(s) modified
+[2025-01-11 20:07:26] Compiled project with clang in passive mode (debug): clang-tidy double2real
