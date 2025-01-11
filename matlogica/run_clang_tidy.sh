@@ -15,4 +15,4 @@ source matlogica/.env
 $LLVM_PROJ/clang-tools-extra/clang-tidy/tool/run-clang-tidy.py -j $NUMCPU -clang-tidy-binary $LLVM_INSTALL/bin/clang-tidy -checks="-*,$2" \
     -header-filter="^$WORKDIR" -p "./$1" -clang-apply-replacements-binary $LLVM_INSTALL/bin/clang-apply-replacements -fix
 
-matlogica/log.sh "clang-tidy('$2') on $1: $(git diff --name-only | wc -l) files modified"
+matlogica/log.sh "Ran clang-tidy('$2') on $1: $(git diff --name-only | wc -l) files modified"
