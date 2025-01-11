@@ -17,3 +17,4 @@
 [2025-01-11 20:07:36] Compiled project with clang in active mode (debug): clang-tidy active fixes for ternary
 [2025-01-11 20:07:37] Ran clang-tidy('matlogica-active-remove-aadpassive') on build_clang_active_debug: 0 file(s) modified
 [2025-01-11 20:07:38] Compiled project with clang in active mode (debug): clang-tidy active fixes for aadpassive
+[2025-01-11 20:07:39] Ran clang-tidy('matlogica-add-aadpassive-bool') on build_clang_active_debug: 0 file(s) modified
