@@ -1,3 +1,4 @@
+#include "aadc_types.hpp"
 #include "Curve.hpp"
 #include <cmath>
 
