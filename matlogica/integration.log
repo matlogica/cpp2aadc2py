@@ -10,3 +10,4 @@
 [2025-01-11 20:07:29] Compiled project with clang in passive mode (debug): clang-tidy double2real (post int2double)
 [2025-01-11 20:07:30] Ran clang-tidy('matlogica-native-fix-boost-math-dist') on build_clang_passive_debug: 0 file(s) modified
 [2025-01-11 20:07:30] Compiled project with clang in passive mode (debug): clang-tidy boost-math-dist
+[2025-01-11 20:07:31] Ran clang-tidy('matlogica-native-fix-constexpr-args-calls,matlogica-native-fix-ambiguous-calls,matlogica-native-fix-passive-calls,matlogica-native-fix-vector-bool,matlogica-native-typeid-double-check') on build_clang_passive_debug: 1 file(s) modified
