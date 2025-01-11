@@ -15,3 +15,4 @@
 [2025-01-11 20:07:34] Compiled project with clang in active mode (debug): turn on active mode for the first time
 [2025-01-11 20:07:34] Ran clang-tidy('matlogica-active-find-ternary-operator-with-real') on build_clang_active_debug: 0 file(s) modified
 [2025-01-11 20:07:36] Compiled project with clang in active mode (debug): clang-tidy active fixes for ternary
+[2025-01-11 20:07:37] Ran clang-tidy('matlogica-active-remove-aadpassive') on build_clang_active_debug: 0 file(s) modified
