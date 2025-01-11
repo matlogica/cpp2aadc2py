@@ -4,11 +4,11 @@
 
 namespace QL {
 
-FlatDiscountCurve::FlatDiscountCurve(double r) : r(r) {}
+FlatDiscountCurve::FlatDiscountCurve(Real r) : r(r) {}
 
 FlatDiscountCurve::~FlatDiscountCurve() {}
 
-double FlatDiscountCurve::discount(double x) const {
+Real FlatDiscountCurve::discount(Real x) const {
     return std::exp(-r * x);
 }
 

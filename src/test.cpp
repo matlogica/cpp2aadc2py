@@ -31,7 +31,7 @@ int main() {
 
     SimpleCashFlowPricer p;
 
-    double price = p.price(m, cf);
+    Real price = p.price(m, cf);
 
     std::cout << "Price: " << price << std::endl;
 
